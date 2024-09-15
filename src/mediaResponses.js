@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// any file
+// any file rewrite
 // not sure if this counts as refactored but it works *finger guns*
 const loadFile = (request, response, location, type) => {
   const file = path.resolve(__dirname, location);
